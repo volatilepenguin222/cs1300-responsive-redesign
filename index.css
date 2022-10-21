@@ -48,6 +48,19 @@ html {
     body {
         margin-inline:1.25rem;
     }
+
+    div.imgbox {
+        height: 240px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+    }
+
+    #filler {
+        width: 100px;
+        height: 100px;
+    }
 }
 
 @media all and (min-width: 601px) {
@@ -212,6 +225,7 @@ button.start {
     padding: 1px;
     font-size: 15px;
     cursor: pointer;
+    color: black;
 }
 
 button.start:hover {
